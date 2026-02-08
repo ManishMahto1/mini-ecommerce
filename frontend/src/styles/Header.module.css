@@ -1,0 +1,105 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--background);
+  box-shadow: var(--shadow-md);
+  z-index: 1000;
+  height: 70px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--primary-color);
+  transition: var(--transition);
+}
+
+.logo:hover h1 {
+  color: var(--primary-dark);
+}
+
+.nav {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.navLink {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-primary);
+  transition: var(--transition);
+  padding: 8px 16px;
+  border-radius: 6px;
+}
+
+.navLink:hover {
+  color: var(--primary-color);
+  background-color: var(--surface);
+}
+
+.cartLink {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-primary);
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: var(--transition);
+  position: relative;
+}
+
+.cartLink:hover {
+  color: var(--primary-color);
+  background-color: var(--surface);
+}
+
+.cartIcon {
+  font-size: 20px;
+}
+
+.badge {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  background-color: var(--danger-color);
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: 10px;
+  min-width: 20px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .logo h1 {
+    font-size: 20px;
+  }
+
+  .nav {
+    gap: 15px;
+  }
+
+  .navLink,
+  .cartLink {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+
+  
+}
