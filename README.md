@@ -9,7 +9,7 @@ A full-stack e-commerce application built with Next.js, Express.js, TypeScript, 
 - Shopping cart functionality
 - Add to cart, update quantity, remove items
 - State management using Context API
-- Custom CSS (no UI libraries)
+- Custom CSS 
 - TypeScript for type safety
 
 ### Backend (Express.js)
@@ -25,7 +25,7 @@ A full-stack e-commerce application built with Next.js, Express.js, TypeScript, 
 - **Frontend**: Next.js 14 (App Router), TypeScript, React Context API
 - **Backend**: Node.js, Express.js, TypeScript
 - **Containerization**: Docker, Docker Compose
-- **Styling**: Custom CSS (no UI libraries)
+- **Styling**: Custom CSS 
 
 ## Project Structure
 
